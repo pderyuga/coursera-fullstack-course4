@@ -1,0 +1,106 @@
+body {
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/*.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}*/
+
+/** HEADER **/
+#header-nav {
+    background-color: rgb(153,153,153);
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: 0px;
+    /*border-color: black;*/
+}
+
+/*.navbar-header {
+    padding-bottom: 15px;
+}*/
+
+/*.navbar-brand {
+    padding-top: 25px;
+}*/
+
+.navbar-brand h1 {
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    vertical-align: middle;
+}
+
+#nav-list {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1px solid black;
+}
+
+#nav-list li {
+    background-color: whitesmoke;
+}
+
+#nav-list li:hover {
+    background-color: rgb(210,210,210);
+}
+
+#nav-list li:hover a {
+    color: white;
+}
+
+#nav-list hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle:focus, .navbar-header button.navbar-toggle:focus .icon-bar, .navbar-header button.navbar-toggle:hover, .navbar-header button.navbar-toggle:hover .icon-bar {
+    background-color: transparent;
+    border: 1px solid rgb(210,210,210);
+}
+
+#collapsable-nav a {
+    font-size: 1.1em;
+    color: black;
+}
+
+#main-content {
+    height: 1000px;
+}
+
+.menu-wrapper {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.menu {
+    background-color: rgb(153,153,153);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.menu-header {
+    position: relative;
+}
+
+.menu-header h3 {
+    position: relative;
+    top: -10px;
+    margin-top: 10px;
+    /*margin-bottom: 10px;*/
+}
